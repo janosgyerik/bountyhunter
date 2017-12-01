@@ -17,6 +17,7 @@
 // http://localhost:8080/static/sample1.json
 // https://api.stackexchange.com/2.2/questions/featured?order=desc&sort=activity&site=stackoverflow
 import sample1 from '../../static/sample1.json'
+import sample2 from '../../static/sample2.json'
 
 const q0 = {
   title: 'test',
@@ -24,92 +25,6 @@ const q0 = {
   bounty: {},
   owner: {},
   bountyOwner: {}
-}
-
-const q1 = {
-  title: 'Print macro values without knowing the amount of macros',
-  url: 'https://stackoverflow.com/questions/47452953/print-macro-values-without-knowing-the-amount-of-macros',
-  score: 15,
-  date: new Date(2017, 10, 23, 10, 15, 0, 0),
-  stars: 3,
-  views: 385,
-  accepted: true,
-  answers: [
-    {
-      score: 32,
-      date: new Date(2017, 10, 23, 11, 0, 0, 0),
-      accepted: true,
-      owner: {
-        url: 'https://stackoverflow.com/users/3233393/quentin',
-        name: 'Quentin',
-        rep: 34599
-      }
-    },
-    {
-      score: 1,
-      date: new Date(2017, 10, 30, 0, 47, 0, 0),
-      accepted: false,
-      owner: {
-        url: 'https://stackoverflow.com/users/4641116/eljay',
-        name: 'Eljay',
-        rep: 557
-      }
-    }
-  ],
-  bounty: {
-    value: 500,
-    text: 'One or more of the answers is exemplary and worthy of an additional bounty.',
-    customText: 'Quentin turned the most vexing parse into a boon. This is one of the most beautiful pieces of C++ code I\'ve seen. I can only upvote once, so a bounty it will be',
-    endDate: new Date(2017, 11, 2, 21, 24, 0, 0)
-  },
-  owner: {
-    url: 'https://stackoverflow.com/users/1624277/e271p314',
-    name: 'e271p314',
-    rep: 1300
-  },
-  bountyOwner: {
-    url: 'https://stackoverflow.com/users/817643/storyteller',
-    name: 'StoryTeller',
-    rep: 51879
-  }
-}
-
-const q2 = {
-  title: 'Keyboard shortcut to insert text (soft hyphen) with CKEditor',
-  url: 'https://stackoverflow.com/questions/34491100/keyboard-shortcut-to-insert-text-soft-hyphen-with-ckeditor',
-  score: 12,
-  date: new Date(2015, 11, 28, 9, 44, 0, 0),
-  stars: 3,
-  views: 444,
-  accepted: false,
-  answers: [
-    {
-      score: 10,
-      date: new Date(2017, 10, 25, 2, 45, 0, 0),
-      accepted: false,
-      owner: {
-        url: 'https://stackoverflow.com/users/5209322/cy-rossignol',
-        name: 'Cy Rossignol',
-        rep: 5793
-      }
-    }
-  ],
-  bounty: {
-    value: 400,
-    text: 'Looking for an answer drawing from credible and/or official sources.',
-    customText: 'I commented on this in 2015 and now it turns out I need this, too. Any hints much appreciated.',
-    endDate: new Date(2017, 11, 1, 10, 51, 0, 0)
-  },
-  owner: {
-    url: 'https://stackoverflow.com/users/2444764/frank-spade',
-    name: 'Frank Spade',
-    rep: 74
-  },
-  bountyOwner: {
-    url: 'https://stackoverflow.com/users/187606/pekka-%EC%9B%83',
-    name: 'Pekka 웃',
-    rep: 331730
-  }
 }
 
 const mapper = (q) => Object.assign({}, q0, {
@@ -158,15 +73,9 @@ const merge = (that, response) => {
   // TODO
 }
 
-const refresh = (that) => {
-  // https://api.stackexchange.com/2.2/questions/featured?order=desc&sort=activity&site=stackoverflow
-  that.questions.unshift(q1)
-}
-
 export default {
   name: 'Bounties',
   data () {
-    q2.title = sample1.items.length
     return {
       repo: {},
       questions: [],
@@ -178,7 +87,7 @@ export default {
   },
   methods: {
     refresh () {
-      refresh(this)
+      this.merge(sample2)
     },
     merge (response) {
       merge(this, response)
