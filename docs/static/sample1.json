@@ -1,0 +1,859 @@
+{
+  "items": [
+    {
+      "tags": [
+        "c#",
+        "avalonedit"
+      ],
+      "owner": {
+        "reputation": 29,
+        "user_id": 8843336,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/3afc98267b2156e77ce8ee4ce86839b1?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Momo",
+        "link": "https://stackoverflow.com/users/8843336/momo"
+      },
+      "is_answered": true,
+      "view_count": 57,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512131855,
+      "answer_count": 1,
+      "score": -2,
+      "last_activity_date": 1512076055,
+      "creation_date": 1510321043,
+      "last_edit_date": 1511566974,
+      "question_id": 47224064,
+      "link": "https://stackoverflow.com/questions/47224064/avalonedit-foldingstrategy-by-indent",
+      "title": "AvalonEdit FoldingStrategy by Indent"
+    },
+    {
+      "tags": [
+        "sql-server",
+        "excel",
+        "ssis",
+        "etl",
+        "ssdt"
+      ],
+      "owner": {
+        "reputation": 17164,
+        "user_id": 2118383,
+        "user_type": "registered",
+        "accept_rate": 64,
+        "profile_image": "https://i.stack.imgur.com/GGDXE.jpg?s=128&g=1",
+        "display_name": "Vignesh Kumar",
+        "link": "https://stackoverflow.com/users/2118383/vignesh-kumar"
+      },
+      "is_answered": true,
+      "view_count": 140,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512217617,
+      "answer_count": 4,
+      "score": 4,
+      "last_activity_date": 1512075878,
+      "creation_date": 1511361945,
+      "last_edit_date": 1511988453,
+      "question_id": 47437513,
+      "link": "https://stackoverflow.com/questions/47437513/issue-while-importing-the-excel-file-through-ssis-package",
+      "title": "Issue while importing the excel file through SSIS package"
+    },
+    {
+      "tags": [
+        "angular",
+        "webpack",
+        "karma-runner"
+      ],
+      "owner": {
+        "reputation": 179,
+        "user_id": 8946627,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/sjUPo.jpg?s=128&g=1",
+        "display_name": "Jesse",
+        "link": "https://stackoverflow.com/users/8946627/jesse"
+      },
+      "is_answered": false,
+      "view_count": 105,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512587692,
+      "answer_count": 0,
+      "score": 4,
+      "last_activity_date": 1512074331,
+      "creation_date": 1511806645,
+      "last_edit_date": 1512074331,
+      "question_id": 47517360,
+      "link": "https://stackoverflow.com/questions/47517360/absolute-or-relative-templateurls-for-angular-components",
+      "title": "Absolute or Relative &quot;templateUrls&quot; for angular components"
+    },
+    {
+      "tags": [
+        "javascript",
+        "jquery",
+        "css"
+      ],
+      "owner": {
+        "reputation": 75,
+        "user_id": 8157693,
+        "user_type": "registered",
+        "accept_rate": 62,
+        "profile_image": "https://i.stack.imgur.com/TqyV1.png?s=128&g=1",
+        "display_name": "I haz kode",
+        "link": "https://stackoverflow.com/users/8157693/i-haz-kode"
+      },
+      "is_answered": true,
+      "view_count": 200,
+      "bounty_amount": 350,
+      "bounty_closes_date": 1512396008,
+      "answer_count": 5,
+      "score": 11,
+      "last_activity_date": 1512074253,
+      "creation_date": 1511502268,
+      "question_id": 47467020,
+      "link": "https://stackoverflow.com/questions/47467020/hide-overflow-behind-stacked-div-with-transparent-background-on-top-of-body-with",
+      "title": "Hide overflow behind stacked div with transparent background on top of body with SVG background"
+    },
+    {
+      "tags": [
+        "vue.js",
+        "vuejs2",
+        "single-page-application",
+        "google-dfp",
+        "gpt"
+      ],
+      "owner": {
+        "reputation": 265,
+        "user_id": 3384343,
+        "user_type": "registered",
+        "accept_rate": 36,
+        "profile_image": "https://www.gravatar.com/avatar/02228badc2f7423b180c56299382527b?s=128&d=identicon&r=PG&f=1",
+        "display_name": "jbojcic",
+        "link": "https://stackoverflow.com/users/3384343/jbojcic"
+      },
+      "is_answered": false,
+      "view_count": 75,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512393969,
+      "answer_count": 0,
+      "score": 4,
+      "last_activity_date": 1512074185,
+      "creation_date": 1511615612,
+      "last_edit_date": 1512074185,
+      "question_id": 47486358,
+      "link": "https://stackoverflow.com/questions/47486358/dfp-destroy-google-ad-and-all-its-references",
+      "title": "DFP - Destroy google ad and all it&#39;s references"
+    },
+    {
+      "tags": [
+        "nativescript",
+        "angular2-nativescript"
+      ],
+      "owner": {
+        "reputation": 105,
+        "user_id": 4175331,
+        "user_type": "registered",
+        "accept_rate": 54,
+        "profile_image": "https://i.stack.imgur.com/fRYkE.jpg?s=128&g=1",
+        "display_name": "Sky",
+        "link": "https://stackoverflow.com/users/4175331/sky"
+      },
+      "is_answered": false,
+      "view_count": 28,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512616296,
+      "answer_count": 1,
+      "score": -1,
+      "last_activity_date": 1512073782,
+      "creation_date": 1511821098,
+      "last_edit_date": 1512011032,
+      "question_id": 47520781,
+      "link": "https://stackoverflow.com/questions/47520781/how-to-make-a-floating-chat-head-similar-to-the-one-in-facebook-messenger-in-nat",
+      "title": "How to make a floating chat head similar to the one in Facebook messenger in nativescript?"
+    },
+    {
+      "tags": [
+        "regex",
+        "ansible"
+      ],
+      "owner": {
+        "reputation": 425,
+        "user_id": 1601716,
+        "user_type": "registered",
+        "accept_rate": 38,
+        "profile_image": "https://www.gravatar.com/avatar/3916fe472c8c493c0283cc2b716be4a1?s=128&d=identicon&r=PG",
+        "display_name": "user1601716",
+        "link": "https://stackoverflow.com/users/1601716/user1601716"
+      },
+      "is_answered": false,
+      "view_count": 52,
+      "bounty_amount": 100,
+      "bounty_closes_date": 1512670322,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1512073451,
+      "creation_date": 1511882961,
+      "last_edit_date": 1512053338,
+      "question_id": 47535197,
+      "link": "https://stackoverflow.com/questions/47535197/regex-ansible-lineinfile-subsection",
+      "title": "regex ansible lineinfile subsection"
+    },
+    {
+      "tags": [
+        "android",
+        "android-recyclerview",
+        "picasso"
+      ],
+      "owner": {
+        "reputation": 718,
+        "user_id": 2037846,
+        "user_type": "registered",
+        "accept_rate": 44,
+        "profile_image": "https://www.gravatar.com/avatar/0d845eabfae27fddeab72524c1292384?s=128&d=identicon&r=PG",
+        "display_name": "MichelReap",
+        "link": "https://stackoverflow.com/users/2037846/michelreap"
+      },
+      "is_answered": false,
+      "view_count": 103,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512397819,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1512072461,
+      "creation_date": 1511460010,
+      "last_edit_date": 1512049766,
+      "question_id": 47461236,
+      "link": "https://stackoverflow.com/questions/47461236/recyclerview-with-images-blocking-the-ui",
+      "title": "RecyclerView with Images blocking the UI"
+    },
+    {
+      "tags": [
+        "visual-c++",
+        "com"
+      ],
+      "owner": {
+        "reputation": 217,
+        "user_id": 1511510,
+        "user_type": "registered",
+        "accept_rate": 34,
+        "profile_image": "https://www.gravatar.com/avatar/e7a7347372e7c12be84a9934ad3f11b8?s=128&d=identicon&r=PG",
+        "display_name": "CrazyCoder",
+        "link": "https://stackoverflow.com/users/1511510/crazycoder"
+      },
+      "is_answered": false,
+      "view_count": 33,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512628245,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1512072374,
+      "creation_date": 1511793568,
+      "question_id": 47513509,
+      "link": "https://stackoverflow.com/questions/47513509/how-to-get-installed-applicatio-path-for-executbale-in-com",
+      "title": "How to get installed applicatio path for executbale in COM"
+    },
+    {
+      "tags": [
+        "android",
+        "wordpress",
+        "performance",
+        "mobile",
+        "wordpress-rest-api"
+      ],
+      "owner": {
+        "reputation": 99,
+        "user_id": 5827565,
+        "user_type": "registered",
+        "accept_rate": 57,
+        "profile_image": "https://lh5.googleusercontent.com/-mwefxbltbR4/AAAAAAAAAAI/AAAAAAAAAgQ/cMqxYT17vSM/photo.jpg?sz=128",
+        "display_name": "Pavel Poley",
+        "link": "https://stackoverflow.com/users/5827565/pavel-poley"
+      },
+      "is_answered": false,
+      "view_count": 54,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512676871,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1512072071,
+      "creation_date": 1511892436,
+      "last_edit_date": 1511950890,
+      "question_id": 47538201,
+      "link": "https://stackoverflow.com/questions/47538201/wp-v2-rest-request-from-android-app-overload-cpu-usage",
+      "title": "wp v2 rest request from Android App overload CPU usage"
+    },
+    {
+      "tags": [
+        "node.js",
+        "babeljs"
+      ],
+      "owner": {
+        "reputation": 1207,
+        "user_id": 1664315,
+        "user_type": "registered",
+        "accept_rate": 57,
+        "profile_image": "https://i.stack.imgur.com/S5cYO.jpg?s=128&g=1",
+        "display_name": "Arian Hosseinzadeh",
+        "link": "https://stackoverflow.com/users/1664315/arian-hosseinzadeh"
+      },
+      "is_answered": false,
+      "view_count": 50,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512454849,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1512071881,
+      "creation_date": 1511671468,
+      "last_edit_date": 1512071881,
+      "question_id": 47493130,
+      "link": "https://stackoverflow.com/questions/47493130/module-build-failed-referenceerror-babel-app-src-index-js-unknown-option",
+      "title": "Module build failed: ReferenceError: [BABEL] /app/src/index.js: Unknown option: /app/node_modules/react/react.js.Children"
+    },
+    {
+      "tags": [
+        "jquery",
+        "html",
+        "iframe"
+      ],
+      "owner": {
+        "reputation": 998,
+        "user_id": 2009722,
+        "user_type": "registered",
+        "accept_rate": 51,
+        "profile_image": "https://i.stack.imgur.com/Q0wuQ.jpg?s=128&g=1",
+        "display_name": "zazvorniki",
+        "link": "https://stackoverflow.com/users/2009722/zazvorniki"
+      },
+      "is_answered": false,
+      "view_count": 32,
+      "bounty_amount": 100,
+      "bounty_closes_date": 1512668978,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1512071386,
+      "creation_date": 1511888463,
+      "last_edit_date": 1512071386,
+      "question_id": 47537061,
+      "link": "https://stackoverflow.com/questions/47537061/widow-scroll-within-iframe",
+      "title": "Widow.scroll within iframe"
+    },
+    {
+      "tags": [
+        "c#",
+        "asp.net",
+        "visual-studio-2013",
+        "iis-express"
+      ],
+      "owner": {
+        "reputation": 63,
+        "user_id": 628887,
+        "user_type": "registered",
+        "accept_rate": 67,
+        "profile_image": "https://www.gravatar.com/avatar/7bdd4223c28f552bede9bd4ffe2d9082?s=128&d=identicon&r=PG",
+        "display_name": "MarkJoel60",
+        "link": "https://stackoverflow.com/users/628887/markjoel60"
+      },
+      "is_answered": false,
+      "view_count": 29,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512675643,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1512070843,
+      "creation_date": 1511460473,
+      "last_edit_date": 1511743824,
+      "question_id": 47461350,
+      "link": "https://stackoverflow.com/questions/47461350/response-redirect-fails-but-then-works-on-refresh-iis-express-vs2013",
+      "title": "Response.Redirect Fails But then Works on Refresh IIS Express VS2013"
+    },
+    {
+      "tags": [
+        "javascript",
+        "ajax",
+        "vue.js",
+        "vuejs2",
+        "vue-resource"
+      ],
+      "owner": {
+        "reputation": 1014,
+        "user_id": 5458806,
+        "user_type": "registered",
+        "accept_rate": 86,
+        "profile_image": "https://i.stack.imgur.com/LMJow.jpg?s=128&g=1",
+        "display_name": "Ahmad Mobaraki",
+        "link": "https://stackoverflow.com/users/5458806/ahmad-mobaraki"
+      },
+      "is_answered": true,
+      "view_count": 93,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512207910,
+      "answer_count": 3,
+      "score": 3,
+      "last_activity_date": 1512070834,
+      "creation_date": 1511289986,
+      "last_edit_date": 1511324290,
+      "question_id": 47420472,
+      "link": "https://stackoverflow.com/questions/47420472/vue-js-ajax-inside-another-ajax-is-getting-data-but-not-rendering-view",
+      "title": "vue js ajax inside another ajax is getting data but not rendering view"
+    },
+    {
+      "tags": [
+        "android",
+        "firebase",
+        "firebase-database",
+        "in-app-purchase",
+        "in-app-billing"
+      ],
+      "owner": {
+        "reputation": 6954,
+        "user_id": 4385913,
+        "user_type": "registered",
+        "accept_rate": 93,
+        "profile_image": "https://i.stack.imgur.com/3CSn3.jpg?s=128&g=1",
+        "display_name": "Skizo-ozᴉʞS",
+        "link": "https://stackoverflow.com/users/4385913/skizo-oz%e1%b4%89%ca%9es"
+      },
+      "is_answered": true,
+      "view_count": 116,
+      "bounty_amount": 100,
+      "bounty_closes_date": 1512379682,
+      "answer_count": 3,
+      "score": 2,
+      "last_activity_date": 1512070803,
+      "creation_date": 1511363566,
+      "last_edit_date": 1511977737,
+      "question_id": 47438092,
+      "link": "https://stackoverflow.com/questions/47438092/in-app-billing-connect-to-firebase-and-get-products",
+      "title": "In-App billing connect to Firebase and get Products"
+    },
+    {
+      "tags": [
+        "javascript",
+        "jquery",
+        "html"
+      ],
+      "owner": {
+        "reputation": 1327,
+        "user_id": 1920003,
+        "user_type": "registered",
+        "accept_rate": 85,
+        "profile_image": "https://i.stack.imgur.com/gkgdd.jpg?s=128&g=1",
+        "display_name": "Lynob",
+        "link": "https://stackoverflow.com/users/1920003/lynob"
+      },
+      "is_answered": false,
+      "view_count": 53,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512635046,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1512070784,
+      "creation_date": 1511814719,
+      "last_edit_date": 1511962616,
+      "question_id": 47519336,
+      "link": "https://stackoverflow.com/questions/47519336/agnostic-way-to-match-and-wrap-all-strings-in-body-without-having-to-know-the-h",
+      "title": "Agnostic way to match and wrap all strings in body (Without having to know the html structure)"
+    },
+    {
+      "tags": [
+        "asp.net-mvc",
+        "azure",
+        "webforms",
+        "asp.net-identity"
+      ],
+      "owner": {
+        "reputation": 1495,
+        "user_id": 75172,
+        "user_type": "registered",
+        "accept_rate": 75,
+        "profile_image": "https://www.gravatar.com/avatar/52cc7fed8208210da4401201eb75e02c?s=128&d=identicon&r=PG",
+        "display_name": "Philippe",
+        "link": "https://stackoverflow.com/users/75172/philippe"
+      },
+      "is_answered": false,
+      "view_count": 17,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512675571,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1512070771,
+      "creation_date": 1511818599,
+      "question_id": 47520205,
+      "link": "https://stackoverflow.com/questions/47520205/how-to-prevent-authorize-roles-xxx-to-verify-in-openidconnect-when-using",
+      "title": "How to prevent [Authorize (Roles = &quot;xxx&quot;)] to verify in openidconnect when using webform authentification"
+    },
+    {
+      "tags": [
+        "npm"
+      ],
+      "owner": {
+        "reputation": 2081,
+        "user_id": 1394353,
+        "user_type": "registered",
+        "accept_rate": 69,
+        "profile_image": "https://www.gravatar.com/avatar/519ce8a904896c40b9a9e2d9a82e0d3c?s=128&d=identicon&r=PG",
+        "display_name": "JL Peyret",
+        "link": "https://stackoverflow.com/users/1394353/jl-peyret"
+      },
+      "is_answered": false,
+      "view_count": 46,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512414341,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1512070386,
+      "creation_date": 1511561728,
+      "last_edit_date": 1512070386,
+      "question_id": 47480617,
+      "link": "https://stackoverflow.com/questions/47480617/npm-how-to-actually-use-package-lock-json-for-installing-based-on-locked-versi",
+      "title": "npm - How to actually use package-lock.json for installing based on locked versions?"
+    },
+    {
+      "tags": [
+        "javascript",
+        "d3.js",
+        "graph-visualization",
+        "sigma.js",
+        "linkurious"
+      ],
+      "owner": {
+        "reputation": 3139,
+        "user_id": 2845414,
+        "user_type": "registered",
+        "accept_rate": 93,
+        "profile_image": "https://i.stack.imgur.com/Zt44U.jpg?s=128&g=1",
+        "display_name": "Sumeet",
+        "link": "https://stackoverflow.com/users/2845414/sumeet"
+      },
+      "is_answered": false,
+      "view_count": 49,
+      "bounty_amount": 100,
+      "bounty_closes_date": 1512587757,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1512070341,
+      "creation_date": 1511803549,
+      "last_edit_date": 1512070341,
+      "question_id": 47516597,
+      "link": "https://stackoverflow.com/questions/47516597/sigma-js-maths-on-how-coordinate-scale-works-in-different-resolution",
+      "title": "Sigma.js Maths on how coordinate scale works in different resolution"
+    },
+    {
+      "tags": [
+        "c#",
+        "visual-studio"
+      ],
+      "owner": {
+        "reputation": 493,
+        "user_id": 5200896,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://www.gravatar.com/avatar/4d824e2d8703ede58e09df9ae10ac572?s=128&d=identicon&r=PG",
+        "display_name": "kogoia",
+        "link": "https://stackoverflow.com/users/5200896/kogoia"
+      },
+      "is_answered": false,
+      "view_count": 1612,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512674650,
+      "answer_count": 0,
+      "score": 8,
+      "last_activity_date": 1512069850,
+      "creation_date": 1498133547,
+      "last_edit_date": 1498136462,
+      "question_id": 44699125,
+      "link": "https://stackoverflow.com/questions/44699125/how-to-change-visual-studio-2017-default-language-version-for-all-projects",
+      "title": "How to change Visual Studio 2017 default language version for all projects?"
+    },
+    {
+      "tags": [
+        "asp.net",
+        "asp.net-identity",
+        "asp.net-identity-2",
+        "google-login"
+      ],
+      "owner": {
+        "reputation": 5913,
+        "user_id": 86431,
+        "user_type": "registered",
+        "accept_rate": 71,
+        "profile_image": "https://www.gravatar.com/avatar/8a90d03e6464b450b1fb50aaaf35885b?s=128&d=identicon&r=PG",
+        "display_name": "Eric Brown - Cal",
+        "link": "https://stackoverflow.com/users/86431/eric-brown-cal"
+      },
+      "is_answered": false,
+      "view_count": 31,
+      "bounty_amount": 100,
+      "bounty_closes_date": 1512670381,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1512069550,
+      "creation_date": 1511885019,
+      "last_edit_date": 1512069550,
+      "question_id": 47535910,
+      "link": "https://stackoverflow.com/questions/47535910/created-a-mvc5-app-with-identity2-how-do-i-set-it-up-to-use-session-cookies-so",
+      "title": "Created a mvc5 app with Identity2, how do i set it up to use session cookies, so they expire when the browser closes"
+    },
+    {
+      "tags": [
+        "android",
+        "android-layout",
+        "react-native",
+        "react-native-android",
+        "android-fragmentmanager"
+      ],
+      "owner": {
+        "reputation": 51441,
+        "user_id": 267269,
+        "user_type": "registered",
+        "accept_rate": 86,
+        "profile_image": "https://i.stack.imgur.com/xR5Ag.png?s=128&g=1",
+        "display_name": "Praveen",
+        "link": "https://stackoverflow.com/users/267269/praveen"
+      },
+      "is_answered": false,
+      "view_count": 80,
+      "bounty_amount": 200,
+      "bounty_closes_date": 1512334737,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1512068759,
+      "creation_date": 1511556445,
+      "last_edit_date": 1512068759,
+      "question_id": 47479820,
+      "link": "https://stackoverflow.com/questions/47479820/react-native-add-fragment-to-mainactivity-using-android-native-modules",
+      "title": "React Native : add fragment to mainactivity using Android Native Modules"
+    },
+    {
+      "tags": [
+        "sql",
+        "ruby-on-rails",
+        "ruby",
+        "postgresql",
+        "performance"
+      ],
+      "owner": {
+        "reputation": 21545,
+        "user_id": 828193,
+        "user_type": "registered",
+        "accept_rate": 89,
+        "profile_image": "https://i.stack.imgur.com/pmNlX.png?s=128&g=1",
+        "display_name": "user000001",
+        "link": "https://stackoverflow.com/users/828193/user000001"
+      },
+      "is_answered": false,
+      "view_count": 95,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512565809,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1512068426,
+      "creation_date": 1511779260,
+      "last_edit_date": 1511859091,
+      "question_id": 47508979,
+      "link": "https://stackoverflow.com/questions/47508979/improve-speed-of-complex-postgres-query-in-rails-app",
+      "title": "Improve speed of complex postgres query in rails app"
+    },
+    {
+      "tags": [
+        "android",
+        "android-recyclerview",
+        "android-viewpager",
+        "snap-framework"
+      ],
+      "owner": {
+        "reputation": 56792,
+        "user_id": 878126,
+        "user_type": "registered",
+        "accept_rate": 50,
+        "profile_image": "https://i.stack.imgur.com/D5dZW.jpg?s=128&g=1",
+        "display_name": "android developer",
+        "link": "https://stackoverflow.com/users/878126/android-developer"
+      },
+      "is_answered": false,
+      "view_count": 45,
+      "bounty_amount": 150,
+      "bounty_closes_date": 1512574589,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1512068258,
+      "creation_date": 1511795277,
+      "last_edit_date": 1511969775,
+      "question_id": 47514072,
+      "link": "https://stackoverflow.com/questions/47514072/how-to-snap-recyclerview-items-so-that-every-x-items-would-be-considered-like-a",
+      "title": "How to snap RecyclerView items so that every X items would be considered like a single unit to snap to?"
+    },
+    {
+      "tags": [
+        "java",
+        "performance",
+        "rest",
+        "rmi",
+        "distributed-computing"
+      ],
+      "owner": {
+        "reputation": 4448,
+        "user_id": 548634,
+        "user_type": "registered",
+        "accept_rate": 80,
+        "profile_image": "https://i.stack.imgur.com/mQuO6.jpg?s=128&g=1",
+        "display_name": "John",
+        "link": "https://stackoverflow.com/users/548634/john"
+      },
+      "is_answered": false,
+      "view_count": 53,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512673004,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1512068204,
+      "creation_date": 1511877068,
+      "last_edit_date": 1512068107,
+      "question_id": 47533220,
+      "link": "https://stackoverflow.com/questions/47533220/efficient-communication-mechanism-with-fallback-within-java-ecosystem",
+      "title": "Efficient communication mechanism with fallback within Java ecosystem"
+    },
+    {
+      "tags": [
+        "javascript",
+        "node.js",
+        "websocket"
+      ],
+      "owner": {
+        "reputation": 94,
+        "user_id": 5432208,
+        "user_type": "registered",
+        "accept_rate": 66,
+        "profile_image": "https://i.stack.imgur.com/ehCuw.jpg?s=128&g=1",
+        "display_name": "Remixt",
+        "link": "https://stackoverflow.com/users/5432208/remixt"
+      },
+      "is_answered": true,
+      "view_count": 28,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512358881,
+      "accepted_answer_id": 47580595,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1512067661,
+      "creation_date": 1511295297,
+      "last_edit_date": 1511295803,
+      "question_id": 47421915,
+      "link": "https://stackoverflow.com/questions/47421915/how-do-i-connect-to-a-clover-mini-device-using-only-node",
+      "title": "How do I connect to a Clover mini device using ONLY node?"
+    },
+    {
+      "tags": [
+        "reporting-services",
+        "reportviewer"
+      ],
+      "owner": {
+        "reputation": 1586,
+        "user_id": 1490835,
+        "user_type": "registered",
+        "accept_rate": 71,
+        "profile_image": "https://www.gravatar.com/avatar/5f2c9b1c7455f8f76c9391b16f6a4c36?s=128&d=identicon&r=PG",
+        "display_name": "Baahubali",
+        "link": "https://stackoverflow.com/users/1490835/baahubali"
+      },
+      "is_answered": false,
+      "view_count": 59,
+      "bounty_amount": 200,
+      "bounty_closes_date": 1512093424,
+      "answer_count": 1,
+      "score": 4,
+      "last_activity_date": 1512066814,
+      "creation_date": 1511250947,
+      "question_id": 47407922,
+      "link": "https://stackoverflow.com/questions/47407922/printing-using-reportviewer-ssrs",
+      "title": "Printing using ReportViewer - SSRS"
+    },
+    {
+      "tags": [
+        "java",
+        "sql",
+        "oracle",
+        "hibernate",
+        "jpa"
+      ],
+      "owner": {
+        "reputation": 5649,
+        "user_id": 366447,
+        "user_type": "registered",
+        "accept_rate": 80,
+        "profile_image": "https://www.gravatar.com/avatar/a561e8d955f8b4f24f5098f25b9f0859?s=128&d=identicon&r=PG",
+        "display_name": "AHungerArtist",
+        "link": "https://stackoverflow.com/users/366447/ahungerartist"
+      },
+      "is_answered": true,
+      "view_count": 141,
+      "bounty_amount": 200,
+      "bounty_closes_date": 1512406775,
+      "answer_count": 2,
+      "score": 3,
+      "last_activity_date": 1512065930,
+      "creation_date": 1510166073,
+      "last_edit_date": 1511806460,
+      "question_id": 47187186,
+      "link": "https://stackoverflow.com/questions/47187186/make-hibernate-discriminator-value-use-bind-variable-instead-of-literal",
+      "title": "Make Hibernate discriminator value use bind variable instead of literal"
+    },
+    {
+      "tags": [
+        "r",
+        "date",
+        "datetime",
+        "lubridate"
+      ],
+      "owner": {
+        "reputation": 115157,
+        "user_id": 190277,
+        "user_type": "registered",
+        "accept_rate": 91,
+        "profile_image": "https://www.gravatar.com/avatar/dcf9672c1893e4b7c5d86ca1bc2bf88f?s=128&d=identicon&r=PG",
+        "display_name": "Ben Bolker",
+        "link": "https://stackoverflow.com/users/190277/ben-bolker"
+      },
+      "is_answered": true,
+      "view_count": 133,
+      "bounty_amount": 100,
+      "bounty_closes_date": 1512532840,
+      "answer_count": 2,
+      "score": 9,
+      "last_activity_date": 1512065528,
+      "creation_date": 1511298563,
+      "question_id": 47422773,
+      "link": "https://stackoverflow.com/questions/47422773/best-practices-for-avoiding-roundoff-gotchas-in-date-manipulation",
+      "title": "best practices for avoiding roundoff gotchas in date manipulation"
+    },
+    {
+      "tags": [
+        "angularjs",
+        "node.js",
+        "mongodb",
+        "http",
+        "mean-stack"
+      ],
+      "owner": {
+        "reputation": 497,
+        "user_id": 2859926,
+        "user_type": "registered",
+        "accept_rate": 76,
+        "profile_image": "https://www.gravatar.com/avatar/2713819bc9f55e03e9453eef1c58342e?s=128&d=identicon&r=PG&f=1",
+        "display_name": "JoaoFilipeClementeMartins",
+        "link": "https://stackoverflow.com/users/2859926/joaofilipeclementemartins"
+      },
+      "is_answered": false,
+      "view_count": 35,
+      "bounty_amount": 50,
+      "bounty_closes_date": 1512670215,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1512065415,
+      "creation_date": 1511810100,
+      "last_edit_date": 1511898979,
+      "question_id": 47518225,
+      "link": "https://stackoverflow.com/questions/47518225/mean-io-stack-angular-long-running-operations-with-http-request",
+      "title": "mean.io stack angular long running operations with http request"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 300,
+  "quota_remaining": 294
+}
