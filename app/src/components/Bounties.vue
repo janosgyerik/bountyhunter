@@ -5,8 +5,8 @@
     <div v-for="q in questions" class="question">
       <h2><a :href="q.url">{{ q.title }}</a></h2>
       <p>score: {{ q.score }} views: {{ q.views }} accepted: {{ q.accepted }}
-          value: {{ q.bounty.value }} op: {{ q.owner.rep }} b: {{ q.bountyOwner.rep }}</p>
-      <p>answers: <span v-for='a in q.answers'>({{ a.score }} by {{ a.owner.rep }})</span></p>
+          value: {{ q.bounty.value }} op: {{ q.owner.rep }} b: {{ q.bountyOwner.rep }}
+          answers: <span v-for='a in q.answers'>({{ a.score }} by {{ a.owner.rep }})</span></p>
       <p>date: {{ q.date }} bounty date: {{ q.bounty.endDate }}</p>
     </div>
   </div>
