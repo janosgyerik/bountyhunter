@@ -18,9 +18,14 @@
 </template>
 
 <script>
+const sampleurl = 'http://localhost:8080/static/sample1.json'
+const baseurl = 'https://api.stackexchange.com/2.2/questions/featured'
+const pagesize = 100
+
 // other possibly interesting fields:
 // - last_activity_date
 // - last_edit_date
+
 const mapper = (q) => {
   const date = new Date(1000 * q.creation_date)
   const days = Math.floor((new Date() - date) / 3600 / 24 / 1000)
@@ -73,6 +78,14 @@ const applyFilters = (that) => {
     .sort((q1, q2) => q2.bounty.date - q1.bounty.date)
 }
 
+const evictExcess = (that, limit) => {
+  const keep = new Set(that.questions.filter((_, i) => i < limit).map(q => q.url))
+  Object.values(that.repo)
+    .map(q => q.url)
+    .filter(k => !keep.has(k))
+    .forEach(k => delete that.repo[k])
+}
+
 export default {
   name: 'Bounties',
   data () {
@@ -85,9 +98,10 @@ export default {
     }
   },
   mounted () {
-    this.fetch('http://localhost:8080/static/sample1.json').then(r => {
+    this.fetch(sampleurl).then(r => {
       this.merge(r)
       this.applyFilters()
+      this.evictExcess(3)
     })
   },
   methods: {
@@ -95,7 +109,9 @@ export default {
       return fetch(url).then(r => r.json())
     },
     update () {
-      this.fetch('https://api.stackexchange.com/2.2/questions/featured?pagesize=100&site=stackoverflow').then(r => {
+      var site = 'stackoverflow'
+      var url = `${baseurl}?pagesize=${pagesize}&site=${site}`
+      this.fetch(url).then(r => {
         this.merge(r)
         this.applyFilters()
       })
@@ -105,6 +121,9 @@ export default {
     },
     applyFilters () {
       applyFilters(this)
+    },
+    evictExcess (limit) {
+      evictExcess(this, limit)
     }
   }
 }
