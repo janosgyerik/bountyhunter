@@ -5,9 +5,10 @@
     <h1>Questions <button v-on:click="refresh">Refresh</button></h1>
     <div v-for="q in questions" class="question">
       <h2><a :href="q.url">{{ q.title }}</a></h2>
+      <p><span v-for="tag in q.tags" class="tag">{{ tag }}</span></p>
       <p>score: {{ q.score }} views: {{ q.views }} accepted: {{ q.accepted }}
           value: {{ q.bounty.value }} op: {{ q.owner.rep }} b: {{ q.bountyOwner.rep }}
-          answers: <span v-for='a in q.answers'>({{ a.score }} by {{ a.owner.rep }})</span></p>
+          answers: <span v-for="a in q.answers">({{ a.score }} by {{ a.owner.rep }})</span></p>
       <p>date: {{ q.date }} bounty date: {{ q.bounty.endDate }}</p>
     </div>
   </div>
@@ -98,4 +99,7 @@ export default {
 
 <!-- Add 'scoped' attribute to limit CSS to this component only -->
 <style scoped>
+.tag {
+  padding: .5em;
+}
 </style>
