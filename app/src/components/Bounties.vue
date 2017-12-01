@@ -1,7 +1,7 @@
 <template>
   <div class="questions">
     <p><input v-model="tagsInput" v-on:change="applyFilters" size="80"></p>
-    <h1>Questions <button v-on:click="refresh">Refresh</button></h1>
+    <h1>Questions <button v-on:click="update">Update</button></h1>
     <div v-for="q in questions" class="question" v-bind:class="q.potentialClass">
       <h2><a :href="q.url">{{ q.title }}</a></h2>
       <p><span v-for="tag in q.tags" class="tag">{{ tag }}</span></p>
@@ -18,11 +18,6 @@
 </template>
 
 <script>
-// http://localhost:8080/static/sample1.json
-// https://api.stackexchange.com/2.2/questions/featured?order=desc&sort=activity&site=stackoverflow
-import sample1 from '../../static/sample1.json'
-import sample2 from '../../static/sample2.json'
-
 // other possibly interesting fields:
 // - last_activity_date
 // - last_edit_date
@@ -86,13 +81,20 @@ export default {
     }
   },
   mounted () {
-    this.merge(sample1)
-    this.applyFilters()
+    this.fetch('http://localhost:8080/static/sample1.json').then(r => {
+      this.merge(r)
+      this.applyFilters()
+    })
   },
   methods: {
-    refresh () {
-      this.merge(sample2)
-      this.applyFilters()
+    fetch (url) {
+      return fetch(url).then(r => r.json())
+    },
+    update () {
+      this.fetch('https://api.stackexchange.com/2.2/questions/featured?pagesize=100&site=stackoverflow').then(r => {
+        this.merge(r)
+        this.applyFilters()
+      })
     },
     merge (response) {
       merge(this, response)
