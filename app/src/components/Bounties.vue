@@ -7,12 +7,20 @@
       <p>score: {{ q.score }} views: {{ q.views }} accepted: {{ q.accepted }}
           value: {{ q.bounty.value }} op: {{ q.owner.rep }} b: {{ q.bountyOwner.rep }}</p>
       <p>answers: <span v-for='a in q.answers'>({{ a.score }} by {{ a.owner.rep }})</span></p>
+      <p>date: {{ q.date }} bounty date: {{ q.bounty.endDate }}</p>
     </div>
   </div>
 </template>
 
 <script>
-var q1 = {
+const q0 = {
+  title: 'test',
+  bounty: {},
+  owner: {},
+  bountyOwner: {}
+}
+
+const q1 = {
   title: 'Print macro values without knowing the amount of macros',
   url: 'https://stackoverflow.com/questions/47452953/print-macro-values-without-knowing-the-amount-of-macros',
   score: 15,
@@ -60,7 +68,7 @@ var q1 = {
   }
 }
 
-var q2 = {
+const q2 = {
   title: 'Keyboard shortcut to insert text (soft hyphen) with CKEditor',
   url: 'https://stackoverflow.com/questions/34491100/keyboard-shortcut-to-insert-text-soft-hyphen-with-ckeditor',
   score: 12,
@@ -98,16 +106,59 @@ var q2 = {
   }
 }
 
+// http://localhost:8080/static/sample1.json
+import sample1 from '../../static/sample1.json'
+
+const questions = () => {
+  return sample1.items.map(q => Object.assign({}, q0, {
+    // q.tags!!!
+    title: q.title,
+    url: q.link,
+    score: q.score,
+    date: new Date(1000 * q.creation_date),
+    // last_activity_date, last_edit_date
+    stars: -1,
+    views: q.view_count,
+    accepted: q.accepted_answer_id !== undefined,
+    answers: Array.from({ length: q.answer_count }).map(() => {
+      return {
+        score: -99,
+        date: new Date(),
+        accepted: false,
+        owner: {}
+      }
+    }),
+    bounty: {
+      value: q.bounty_amount,
+      text: '?',
+      customText: '?',
+      endDate: new Date(1000 * q.bounty_closes_date)
+    },
+    owner: {
+      url: q.owner.link,
+      name: q.owner.display_name,
+      rep: q.owner.reputation
+    },
+    bountyOwner: {}
+  }))
+}
+
+const refresh = (that) => {
+  // https://api.stackexchange.com/2.2/questions/featured?order=desc&sort=activity&site=stackoverflow
+  that.questions.unshift(q1)
+}
+
 export default {
   name: 'Bounties',
   data () {
+    q2.title = sample1.items.length
     return {
-      questions: [ q2 ]
+      questions: questions()
     }
   },
   methods: {
     refresh () {
-      this.questions.unshift(q1)
+      refresh(this)
     }
   }
 }
