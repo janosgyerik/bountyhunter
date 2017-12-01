@@ -1,7 +1,7 @@
 <template>
   <div class="questions">
     <p><input v-model="tagsInput" v-on:change="applyFilters" size="80"></p>
-    <h1>Questions <button v-on:click="update">Update</button></h1>
+    <h1>Questions <button v-on:click="update">Update</button> {{ quotaRemaining }}/{{ quotaMax }}</h1>
     <div v-for="q in questions" class="question" v-bind:class="q.potentialClass">
       <h2><a :href="q.url">{{ q.title }}</a></h2>
       <p><span v-for="tag in q.tags" class="tag">{{ tag }}</span></p>
@@ -60,6 +60,8 @@ const mapper = (q) => {
 }
 
 const merge = (that, response) => {
+  that.quotaMax = response.quota_max
+  that.quotaRemaining = response.quota_remaining
   response.items.map(mapper).forEach(q => { that.repo[q.url] = q })
 }
 
@@ -77,7 +79,9 @@ export default {
     return {
       repo: {},
       questions: [],
-      tagsInput: 'java bash sonarqube awk git shell javascript maven sonarlint r unix go python junit'
+      tagsInput: 'java bash sonarqube awk git shell javascript maven sonarlint r unix go python junit',
+      quotaMax: 0,
+      quotaRemaining: 0
     }
   },
   mounted () {
