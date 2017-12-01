@@ -109,7 +109,10 @@ export default {
 <!-- Add 'scoped' attribute to limit CSS to this component only -->
 <style scoped>
 .tag {
-  padding: .5em;
+  padding: 0 .5em;
+  margin: 5px;
+  color: #39739d;
+  background-color: #E1ECF4;
 }
 
 .question {
