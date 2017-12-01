@@ -1,4 +1,3 @@
-
 <template>
   <div class="questions">
     <p><input v-model="tagsInput"></p>
@@ -20,58 +19,50 @@
 import sample1 from '../../static/sample1.json'
 import sample2 from '../../static/sample2.json'
 
-const q0 = {
-  title: 'test',
-  tags: [],
-  bounty: {},
-  owner: {},
-  bountyOwner: {}
+const mapper = (q) => {
+  return {
+    title: q.title,
+    url: q.link,
+    tags: q.tags,
+    score: q.score,
+    date: new Date(1000 * q.creation_date),
+    // last_activity_date, last_edit_date
+    stars: -1,
+    views: q.view_count,
+    accepted: q.accepted_answer_id !== undefined,
+    answers: Array.from({ length: q.answer_count }).map(() => {
+      return {
+        score: -99,
+        date: new Date(),
+        accepted: false,
+        owner: {}
+      }
+    }),
+    bounty: {
+      value: q.bounty_amount,
+      text: '?',
+      customText: '?',
+      endDate: new Date(1000 * q.bounty_closes_date)
+    },
+    owner: {
+      url: q.owner.link,
+      name: q.owner.display_name,
+      rep: q.owner.reputation
+    },
+    bountyOwner: {}
+  }
 }
-
-const mapper = (q) => Object.assign({}, q0, {
-  title: q.title,
-  url: q.link,
-  tags: q.tags,
-  score: q.score,
-  date: new Date(1000 * q.creation_date),
-  // last_activity_date, last_edit_date
-  stars: -1,
-  views: q.view_count,
-  accepted: q.accepted_answer_id !== undefined,
-  answers: Array.from({ length: q.answer_count }).map(() => {
-    return {
-      score: -99,
-      date: new Date(),
-      accepted: false,
-      owner: {}
-    }
-  }),
-  bounty: {
-    value: q.bounty_amount,
-    text: '?',
-    customText: '?',
-    endDate: new Date(1000 * q.bounty_closes_date)
-  },
-  owner: {
-    url: q.owner.link,
-    name: q.owner.display_name,
-    rep: q.owner.reputation
-  },
-  bountyOwner: {}
-})
 
 const merge = (that, response) => {
   response.items.map(mapper).forEach(q => { that.repo[q.url] = q })
+}
 
+const applyFilters = (that) => {
   const tags = new Set(that.tagsInput.split(/\s+/))
 
-  // set that.questions to updated filtered
   that.questions = Object.values(that.repo)
     .filter(q => q.tags.some(tag => tags.has(tag)))
     .sort((q1, q2) => q2.bounty.endDate - q1.bounty.endDate)
-
-  // evict old data
-  // TODO
 }
 
 export default {
@@ -85,13 +76,18 @@ export default {
   },
   mounted () {
     this.merge(sample1)
+    this.applyFilters()
   },
   methods: {
     refresh () {
       this.merge(sample2)
+      this.applyFilters()
     },
     merge (response) {
       merge(this, response)
+    },
+    applyFilters () {
+      applyFilters(this)
     }
   }
 }
