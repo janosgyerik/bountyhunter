@@ -1,6 +1,6 @@
 <template>
   <div class="questions">
-    <p><input v-model="tagsInput"></p>
+    <p><input v-model="tagsInput" v-on:change="applyFilters"></p>
     <h1>Questions <button v-on:click="refresh">Refresh</button></h1>
     <div v-for="q in questions" class="question">
       <h2><a :href="q.url">{{ q.title }}</a></h2>
